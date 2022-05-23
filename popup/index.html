@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Heading</h2>
+            <br>
+            <p> this is the content section 
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+                this is the content section
+            </p>
+        </div>
+
+        <div class="toggleBtn"></div>
+    </div>
+
+    <script>
+        let toggleBtn = document.querySelector('.toggleBtn');
+        let container = document.querySelector('.container');
+        toggleBtn.onclick = function(){
+            container.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
